@@ -31,7 +31,7 @@ namespace 四则运算1._0
                         break;
                     case 3:
                         if (number1 < number2)
-                            number2 = Math.Floor(number1 / 2);
+                            number2 = Math.Floor(number1 / 2);//化整
                         while(number1 % number2 != 0)
                         {
                             number2--;
